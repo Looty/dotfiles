@@ -1,0 +1,11 @@
+# Settings apply across all Linux distros running on WSL 2
+[wsl2]
+
+# Limits VM memory to use no more than 6 GB, this can be set as whole numbers using GB or MB
+memory=6GB
+
+# Sets the VM to use 4 virtual processors
+processors=4
+
+# This will shutdown the VM after a little timeout.
+vmIdleTimeout=1
